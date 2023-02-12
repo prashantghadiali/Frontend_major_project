@@ -1,0 +1,369 @@
+:root {
+    --themegrey: #B0B2BF;
+}
+
+body {
+    color: white !important;
+    background-color: #0C1027 !important;
+    min-height: 100%;
+}
+
+.mainfile {
+    float: left;
+}
+
+
+/* nav */
+.navbar.bg{
+    background-color: #0C1027;
+}
+.navbar-brand img {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+.navbar svg{
+    height: 30px;
+    margin: 3.5% 5% 5% 0;
+}
+
+.Brand{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -30px;
+    margin-left: 90px;
+    font-size: larger;
+}
+
+.name{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.REALID{
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 10px;
+
+}
+
+/* .navbar{
+    border: 1px solid red;
+} */
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.search{
+    background-color: #12193E !important;
+    border-radius: 15px !important;
+    width: 400px !important;
+    height: 40px !important;
+    border: none !important;
+    color: var(--themegrey);
+}
+
+
+
+.search svg{
+    height: 16px;
+}
+
+.ser-btn{
+    margin-top: 1.7%;
+    margin-left: 2%;
+}
+
+.bell svg{
+    margin: 14px 200px 14px 50px !important;
+}
+
+/* carousel  content-1 */
+.content-1{
+    width: 55%;
+    display: inline-block;
+    margin-left: 7%;
+    /* border: 1px solid yellow; */
+    height: 300px;
+}
+
+/* carousel container */
+.container.cour{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+img.d-block.w-100{
+    height: 300px;
+    width: 300px !important;
+}
+
+.cont-row1{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.col1{
+    margin-left: 300px;
+    margin-top: 68px;
+    color: var(--themegrey);
+    font-size: small;
+}
+
+.cont-row1 strong{
+    font-size: 20px;
+}
+
+.cour-para{
+    height: 100px;
+    margin-left: 320px;
+    margin-right: 15px;
+    color: var(--themegrey);
+    font-size: small;
+    /* border: 1px solid green; */
+}
+
+.playall button{
+    margin-left: 307px;
+    margin-top: 2px;
+    display: flex;
+    align-content: flex-start;
+    color: #ffffff;
+}
+
+.col.playall button{
+    width: 130px;
+    display: block;
+}
+
+.row-song img{
+    position: relative;
+    overflow-y: visible;
+    padding-top: -15px;
+}
+
+#grad1{ 
+    background-image: linear-gradient(90deg, #3423AF, #C148DF);
+    border: none;
+}
+
+#follow{
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    border: none;
+}
+
+#track{
+    margin-left: 307px;
+    font-size: small;
+}
+
+
+
+
+
+
+/* songs */
+.songs{
+    width: 60%;
+    height: auto;
+    /* border: 1px solid white; */
+}
+
+.songs.container{
+    padding: 0%;
+}
+
+.row-song{
+    margin: 3px 0px 5px;
+    height: 50px;
+    background-color: #1A1E33;
+    /* border: 1px solid red; */
+}
+
+.p-2.row-song{
+    display: inline-flex;
+}
+
+.row-song p{
+    color: var(--themegrey);
+    font-size: small;
+    margin-top: 5px;
+}
+
+div.p-2.row-song.w-100{
+    padding: 4px !important;
+}
+
+div.col-1{
+    width: 20px;
+    height: 32px;
+}
+
+div.col-2 img{
+    justify-content: center;
+    padding-top: -10px !important;
+}
+
+.col-3 .row{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.row div{
+    width: fit-content;
+    margin-right: 5px;
+    display: inline-block;
+    justify-content: end;
+}
+
+/* aside */
+aside{
+    width: 30%;
+    margin-right: 7%;
+    height: 330px;
+    /* border: 1px solid yellow; */
+    margin-top: -355px;
+    float: right;
+}
+
+aside-2{
+    width: 30%;
+    margin-right: 7%;
+    height: auto;
+    /* border: 1px solid yellow; */
+    float: right;
+}
+
+.simart {
+    /* border: 1px solid white; */
+    height: 90px;
+}
+
+.time-stamp{
+    color: var(--themegrey);
+    font-size: small;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0%;
+    height: 75px;
+    width: 100%;
+    background-color: #282828;
+    /* border: 1px solid white; */
+}
+
+.foot-mid img{
+    margin-right: 30px;
+    margin-top: 3px;
+}
+
+#music-box{
+    margin-left: 70px;
+    /* border: 1px solid white; */
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.outer{
+    position: absolute;
+    height: 50px;
+    width: 50px !important;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: -5px;
+    margin-top: -2px;
+    box-shadow: 3px 3px 5px -1px #BD47DE,
+    -3px -3px 5px -1px #3624B0;
+}
+
+.inner{
+    position: absolute;
+    height: 30px;
+    width: 30px !important;
+    border-radius: 50%;
+    margin-top: 0.7px;
+    margin-right: 3px;
+    box-shadow: inset 2px 2px 3px -1px #BD47DE,
+                inset -2px -2px 3px -1px #3624B0,
+                -0.1px -0.1px 0px #3624B0,
+                0.1px 0.1px 0px #c4a7cd,
+                0px 6px 5px -5px #d893eb;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 7px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: anim 2s linear forwards;
+}
+
+.circle svg{
+    position: absolute;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#curr-music img{
+    vertical-align: text-bottom !important;
+}
+
+#curr-icon{
+    position: absolute;
+    margin-top: -35px;
+    margin-right: -50px;
+    align-self: center;
+}
+
+#myProgress {
+    position: relative;
+    width: 30%;
+    height: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: -5px!important;
+    margin-bottom: 0%;
+}
+
+#myBar {
+    position: relative;
+    width: 30%;
+    height: 7px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 5px;
+    color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 0px;
+    margin-top: -8px !important;
+}
+
+#click button{
+    background-color: transparent;
+    border-color: transparent;
+    height: 15px !important;
+    margin-top: -10px;
+}
